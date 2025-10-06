@@ -1,4 +1,5 @@
 # Frontend-version-control-task-Oluwagbemiga
+<<<<<<< HEAD
 
 ## 📘 Project Overview
 This project demonstrates the use of Git and GitHub for version control, collaboration, and workflow management. It is a simple e-commerce homepage built with HTML, CSS, and JavaScript to show practical understanding of branching, committing, pull requests, merging, and reverting changes.
@@ -24,3 +25,6 @@ git merge
 git revert
 git log
 git fetch origin
+=======
+This repository demonstrates version control skills using Git and GitHub — including branching, committing, pull requests, merging, and reverting changes.
+>>>>>>> df7644ba3d00b6bf755b1b8b2f3f40c510367568
