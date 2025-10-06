@@ -40,6 +40,14 @@ body {
   color: #ff6600;
 }
 
+/* Mobile menu toggle (hidden by default) */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  color: #333;
+  cursor: pointer;
+}
+
 /* Hero */
 .hero {
   height: 70vh;
@@ -146,4 +154,88 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+   =========================== */
+
+/* Tablets (≤ 992px) */
+@media (max-width: 992px) {
+  .navbar {
+    padding: 15px 30px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .products {
+    padding: 40px 15px;
+  }
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    gap: 18px;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero {
+    height: 60vh;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+/* Small phones (≤ 480px) */
+@media (max-width: 480px) {
+  .hero {
+    height: 55vh;
+    padding: 0 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+  }
+
+  .product-card {
+    padding: 15px;
+  }
 }
