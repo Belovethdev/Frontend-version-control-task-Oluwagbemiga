@@ -100,6 +100,11 @@ const products = [
   },
 ];
 
+
+function toggleMenu() {
+  document.querySelector('.nav-links').classList.toggle('active');
+}
+
 // Render products dynamically
 const productGrid = document.querySelector('.product-grid');
 
