@@ -177,6 +177,14 @@ footer {
   .products {
     padding: 40px 15px;
   }
+
+  footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
 }
 
 /* Mobile (≤ 768px) */
@@ -217,6 +225,14 @@ footer {
   .hero p {
     font-size: 1rem;
   }
+
+  footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
 }
 
 /* Small phones (≤ 480px) */
@@ -238,4 +254,12 @@ footer {
   .product-card {
     padding: 15px;
   }
+
+  footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
 }
